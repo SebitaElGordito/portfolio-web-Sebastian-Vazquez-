@@ -443,7 +443,11 @@ nav a:hover{
 .img__proyectos{
     border-radius: 25px;
     box-shadow: 5px 8px 12px black;
+    transition: transform 0.3s ease;
+}
 
+.proyectos__contenido:hover .img__proyectos {
+    transform: scale(2.0); /* Aumenta la escala en un 10% */
 }
 
 .contacto{
